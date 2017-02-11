@@ -3,9 +3,13 @@
     <OutputDirectory>$(MSBuildThisFileDirectory)\artifacts</OutputDirectory>
     <NuGet>$(MSBuildThisFileDirectory)nuget.exe</NuGet>
   </PropertyGroup>
+  <ItemGroup>
+      <Artifacts Include="$(OutputDirectory)/*"/>
+  </ItemGroup>
   <Target Name="Build">
     <MakeDir Directories="$(OutputDirectory)" />
-    <Exec Command="mono $(NuGet) pack &quot;$(MSBuildThisFileDirectory)template.nuspec&quot;"
+    <Delete Files="@(Artifacts)" />
+    <Exec Command="mono $(NuGet) pack &quot;$(MSBuildThisFileDirectory)template/template.nuspec&quot;"
           WorkingDirectory="$(OutputDirectory)" />
   </Target>
 </Project>

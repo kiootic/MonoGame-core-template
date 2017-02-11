@@ -18,7 +18,7 @@
 
   <!-- MonoGame Support -->
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.DesktopGL" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.5.1.1679" />
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
   <PropertyGroup>

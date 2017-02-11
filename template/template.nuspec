@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+<package>
   <metadata>
     <id>MonoGame.Template.NETCore</id>
-    <version>1.0.0</version>
+    <version>3.5.1</version>
     <authors>kiootic</authors>
     <owners>kiootic</owners>
     <projectUrl>https://github.com/kiootic/MonoGame-core-template</projectUrl>
@@ -12,5 +12,8 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.0" />
+    </dependencies>
   </metadata>
 </package>
