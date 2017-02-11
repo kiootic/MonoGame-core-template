@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Template.NETCore</id>
+    <version>1.0.0</version>
+    <authors>kiootic</authors>
+    <owners>kiootic</owners>
+    <projectUrl>https://github.com/kiootic/MonoGame-core-template</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Template of MonoGame DesktopGL project for VS Code + .NET Core tooling</description>
+    <tags>MonoGame Game Core VSCode</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>
